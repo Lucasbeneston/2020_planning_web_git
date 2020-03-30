@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue sur mon planning de formation</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur mon planning de formation</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="js.html">JS</a></li>
+            <li><a href="sql.html">SQL</a></li>
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form>
+            <!-- Nom -->
+            <div>
+                <label for="nom">Nom : </label>
+                <input type="text" name="nom" id="nom" required>
+            </div>
+            <!-- Prénom -->
+            <div>  
+                <label for="prenom">Prénom : </label>
+                <input type="text" name="prenom" id="prenom" required>
+            </div>
+            <!-- Email -->
+            <div>
+                <label for="mail">Email : </label>
+                <input type="email" name="mail" id="mail">
+            </div>
+            <!-- Age -->
+            <div>
+                <label for="age">Age : </label>
+                <input type="number" name="age" id="age" min="3" max="99">
+            </div>
+            <!-- Téléphone -->
+            <div>
+                <label for="telephone">Téléphone :</label>
+                <input type="tel" name="telephone" id="telephone">
+            </div>
+            <!-- Sexe -->
+            </div>
+                <p>Sexe : </p>
+                <input type="checkbox" id="homme" name="homme" value="Homme">
+                <label for="homme">Homme</label><br>
+                <input type="checkbox" id="femme" name="femme" value="Hemme">
+                <label for="femme">Femme</label><br>
+                <input type="checkbox" id="autre" name="autre" value="autre">
+                <label for="autre">Autre</label><br>
+            </div>
+            <!--  Couleur -->
+            <div>
+                <label for="couleur">Couleur :</label>
+                <input type="couleur" name="" id="couleur">
+            </div>
+            <!-- Date -->
+            <div>
+                <label for="date">Date : </label>
+                <input type="date" name="date" id="date">
+            </div>
+            <!-- Technologies -->
+            <div>
+                <label for="technologie">Téchnologie :</label>
+                <select name="technologie" id="technologie">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="sql">SQL</option>
+                    <option value="Php">PHP</option>
+                </select>
+            </div>
+            <!-- Question :  -->
+            <div>
+                <p>Question : </p>
+                <textarea name="question" id="question"></textarea>
+            </div>
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
+
+    <aside>
+        <blockquote cite="https://www.huxley.net/bnw/four.html">
+            <p>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</p>
+            <footer>—Aldous Huxley, <cite>Brave New World</cite></footer>
+        </blockquote>
+    </aside>
+
+    <footer>
+        <p>Nom : BENESTON</p>
+        <p>Prénom : Lucas</p>
+        <p>Adresse : Dans l'espace</p>
+        <p>Téléphone : Maison.</p>
+    </footer>
+</body>
+</html>
